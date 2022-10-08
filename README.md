@@ -1,6 +1,13 @@
 # SALARY CALCULATOR
 - Example salary calculator for a company
 
+## Features
+### Kernel:
+- Supported Language : 
+  - [x] Java
+### UML Diagram:
+![UML](https://user-images.githubusercontent.com/82665803/194707224-c3e663de-e553-40e4-8f24-32c0879daafa.png)
+
 
 ## Installation
 - Clone the project
