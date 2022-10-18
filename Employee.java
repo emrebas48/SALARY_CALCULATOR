@@ -41,7 +41,7 @@ public class Employee{
   
 
   public float tax(){  
-    float total=getSalary()+bonus();  // tax for monthly salary + bonus 
+    float total=getSalary();  // tax for monthly salary + bonus 
     if(total>=1000){
       return (total*3/100);
     }
@@ -51,7 +51,7 @@ public class Employee{
   public float bonus(){
     float workHours=getWorkHours();
     if(workHours>40){ 
-      return ((workHours-40)*30*4);  // bonus for 1 month 
+      return ((workHours-40)*30);  // bonus for 1 week
     }
     return 0;
     }
